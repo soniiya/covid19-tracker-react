@@ -30,7 +30,13 @@
     "eject": "react-scripts eject",
     "heroku-postbuild":"npm run build"
   },
- 
+  
+    "buildpacks": [
+      {
+        "url": "mars/create-react-app"
+      }
+    ],
+  
   "eslintConfig": {
     "extends": [
       "react-app",
